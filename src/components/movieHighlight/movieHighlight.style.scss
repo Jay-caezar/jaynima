@@ -1,0 +1,50 @@
+/** @format */
+
+.big_highlight {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	.title {
+		font-size: 2rem;
+		line-height: 1;
+		color: rgb(209, 125, 0);
+		font-weight: 500;
+		margin-top: 0.5rem;
+	}
+
+	.about_movie {
+		font-size: 0.8rem;
+		color: rgb(201, 201, 201);
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+}
+.small_highlight {
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	padding: 1rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 1rem;
+
+	.movie_name {
+		font-size: 1.1rem;
+		line-height: 1;
+		color: rgb(209, 125, 0);
+		font-weight: 500;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	.about_movie {
+		font-size: 0.7rem;
+		color: rgb(182, 182, 182);
+		width: 100%;
+		display: none;
+	}
+}

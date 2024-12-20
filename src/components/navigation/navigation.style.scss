@@ -1,0 +1,41 @@
+/** @format */
+
+.nav_bar {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	// background: rgba(36, 34, 34, 0.632);
+	padding: 0.5rem 2rem;
+	box-sizing: border-box;
+
+	a {
+		text-decoration: none;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	.logo {
+		font-size: 1.3rem;
+		color: white;
+		text-transform: uppercase;
+	}
+
+	.nav_list {
+		display: flex;
+		gap: 2rem;
+
+		.link {
+			font-size: 0.8rem;
+			text-transform: capitalize;
+			color: aliceblue;
+
+			&:hover {
+				color: #ff9000;
+				font-weight: 600;
+			}
+		}
+	}
+}

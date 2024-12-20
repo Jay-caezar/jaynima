@@ -1,0 +1,31 @@
+/** @format */
+.movie_card {
+	width: 11rem;
+	min-width: 11rem;
+	height: 15.5rem;
+	// background: url(./../../images/moviePoster/65.jpg);
+	background-size: cover !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	display: flex;
+	align-items: flex-end;
+	border-radius: 10px;
+	overflow: hidden;
+
+	img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+	cursor: pointer;
+
+	&:hover {
+		.small_highlight {
+			height: 100%;
+			background: rgba(0, 0, 0, 0.8);
+			.about_movie {
+				display: block;
+			}
+		}
+	}
+}
