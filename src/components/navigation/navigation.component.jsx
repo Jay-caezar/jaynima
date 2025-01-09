@@ -3,7 +3,7 @@ import navListData from '../../data/navListData';
 import NavListItem from '../../components/navigation/navListItem.components';
 import './navigation.style.scss';
 import Search from './../search/search.component';
-const Navigation = () => {
+const Navigation = ({ apiKey }) => {
 	return (
 		<nav className='nav_bar'>
 			<a
@@ -22,7 +22,7 @@ const Navigation = () => {
 					/>
 				))}
 			</ul>
-			<Search />
+			<Search apiKey={apiKey} />
 		</nav>
 	);
 };

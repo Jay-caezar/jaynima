@@ -28,7 +28,7 @@ function App() {
 			.then((data) => {
 				setMovies(data.results);
 				setBanner(data.results[0]);
-				console.log(data);
+				// console.log(data);
 			})
 			.catch((err) => console.log(err));
 	};
@@ -41,7 +41,7 @@ function App() {
 	return (
 		<div className='App'>
 			<Homepage>
-				<Navigation />
+				<Navigation apiKey={apiKey} />
 				<BannerPreview
 					banner={posterPrefixer + banner.poster_path}
 					title={banner.title}

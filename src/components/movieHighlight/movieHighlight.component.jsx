@@ -16,8 +16,6 @@ const MovieHighlight = ({ className, title, releaseDate, vote, overview, setGenr
 		fetchGenre();
 	}, []);
 
-	console.log(genre);
-
 	return (
 		<div className={className}>
 			<div className='movie_stat'>

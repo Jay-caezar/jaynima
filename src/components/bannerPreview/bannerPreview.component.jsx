@@ -5,7 +5,6 @@ import './bannerPreview.styles.scss';
 // import { useState } from 'react';
 
 const BannerPreview = ({ banner, title, releaseDate, vote, overview, setGenre, genre, genre_ids }) => {
-	console.log(banner);
 	return (
 		<div
 			className='banner'
